@@ -1,0 +1,49 @@
+
+.top {
+    display: grid; 
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.middle {
+    display: flex; 
+    justify-content: space-between;
+
+}
+.right {
+    display: flex;
+    grid-template-columns: min-content;
+    justify-content: space-evenly;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+    border: 1px solid red;
+    height: 800px;
+    
+}
+
+.features {
+    border: 1px solid black;
+}
+
+.features-content {
+    
+}
+
+.reviews {
+    border: 1px solid purple;
+}
+
+.news {
+    border:1px solid green;
+
+
+.word-margin {
+    margin:5px;
+    border:1px solid black;
+}
+.flex {
+    display: flex;
+}
+
